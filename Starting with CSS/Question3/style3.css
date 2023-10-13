@@ -1,0 +1,34 @@
+.form{
+    width: 80vw;
+    height: 90vh;
+    border: 5px solid black;
+    line-height: 30px;
+    background-color: burlywood;
+    opacity: 0.9;
+    /* Applying opacity */
+}
+
+.heading{
+    font-size: 40px;
+    font-weight: bolder;
+    text-decoration: underline;
+    margin-bottom: 30px;
+}
+
+.addresslabel{
+    display: block;
+}
+
+.section{
+    display: block;
+}
+
+.inputfield{
+    background-color: rgba(0, 255, 123, 0.5);
+    /* using rgba value and setting audacity/opacity by setting last value as 0.5 */
+}
+
+.key{
+    background-color: yellowgreen;
+    opacity: 0.8;
+}

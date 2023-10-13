@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration form</title>
+    <link rel="stylesheet" href="./style3.css">
+</head>
+<body>
+    <div class="form">
+        <form action="get">
+
+         <header class="heading">Regisration Form</header>
+
+        <main class="Personal_Info">
+        
+        <section class="data">
+            <label for="firstname">First Name:</label>
+            <input type="text" name="firstname" id="firstname" class="inputfield">
+        </section>
+        
+        <section class="data">
+            <label for="lastname">Last Name:</label>
+            <input type="text" name="lastname" id="lastname" class="inputfield">
+        </section>
+
+        <section class="data">
+            <label for="mail">E-Mail:</label>
+            <input type="email" name="usermail" id="mail" class="inputfield">
+        </section>
+
+        <section class="data">
+            <label for="password">Password:</label>
+            <input type="password" name="password" id="password" class="inputfield">
+        </section>
+
+        <section class="data">
+            <label for="d.o.b.">D.O.B.:</label>
+            <input type="date" name="d.o.b." id="d.o.b." class="inputfield">
+        </section>
+
+        <section class="data">
+            <span>Gender:</span>
+            <label for="male">Male</label>
+            <input type="radio" id="male" name="gender" class="radio"> 
+            <label for="female">Female</label>
+            <input type="radio" id="female" name="gender" class="radio">
+            <label for="others">Others</label>
+            <input type="radio" id="Others" name="gender" class="radio">
+        </section>
+
+        <section class="data">
+            <label for="mobile">Mobile no.</label>
+            <input type="tel" id="mobile" name="mobile" class="inputfield">
+        </section>
+
+        <section class="data">
+            <label for="Address" class="addresslabel">Address</label>
+            <textarea name="Address" id="Address"  class="inputfield"  cols="30" rows="10"></textarea>
+        </section>
+
+        </main>
+       
+        <footer>
+         <button class="key">Submit</button>
+        </footer>
+        </form>
+        
+    </div>
+</body>
+</html>

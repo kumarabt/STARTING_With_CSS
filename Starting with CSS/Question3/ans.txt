@@ -1,0 +1,10 @@
+We can set opacity to any section of our form in two ways:
+
+1. Using selctor: By using selector we can mention opacity attribute and set its value between 0 and 1.
+                  
+                  Example: Selector{
+                    opacity:0.5;
+                  }
+
+2. By RGBA value : By using rgba value also we can set its last parameter i.e. A that represents audacity/
+                   opacity between 0 to 1 according to our prefrence.

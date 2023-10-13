@@ -1,0 +1,6 @@
+When we target a same element in our html file using inline, internal and external css then the inline
+css will the utmost priority and then second most priority is given to the internal css and lastly
+external css has the least priority.
+
+But it is considered to be best practise at industry level to use external css by linking it to your
+html file as you can seprately work on the styling part in big projects.

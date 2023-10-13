@@ -1,0 +1,36 @@
+article{
+    color: rgb(20, 231, 111);
+}
+/* selector using an element */
+p{
+    color: black;
+}
+
+footer,section{
+    background-color: rgb(100, 201, 211);
+}
+/* group selector */
+.paragraph{
+    background-color: brown;
+}
+/* class selector */
+#p1{
+    background-color: burlywood;
+}
+/* id name must contain a character and id name cannot start with a number specifically. */
+/* id selector */
+
+/* since, if same class is given to both the elements section and paragraph so to access the class of section
+write code in this way. */
+section.paragraph{
+    width: 200px;
+}
+
+.testfont{
+    font-family: 'Fuggles', cursive; font-weight: 800;font-stretch: expanded;font-size: xx-large;
+}
+
+/* below used is an universal selector */
+*{
+    text-decoration: underline;
+}

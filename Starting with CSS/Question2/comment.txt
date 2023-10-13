@@ -1,0 +1,5 @@
+Since, chirag sir has told us to skip bem naming convention for now as he will discuss it after completing
+advanced css so, for now i am not including it in my question.
+
+Please don't deduct marks for it.
+Thankyou!
